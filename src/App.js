@@ -14,6 +14,8 @@ export default function App() {
           <Route path="/About" element={<About />} />
           <Route path="/projectGallery" element={<ProjectGallery/>} />
           <Route path="/React-Portfolio" elemnt={<Navigate replace to="/"/>} />
+       
+     
       </Routes>
     </BrowserRouter>
   );
