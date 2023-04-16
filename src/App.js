@@ -13,7 +13,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/projectGallery" element={<ProjectGallery/>} />
-          <Route path="/React-Portfolio" elemnt={<Navigate replace to="/"/>} />
+          <Route path="/React-Portfolio" element={<Navigate replace to="/"/>} />
        
      
       </Routes>
